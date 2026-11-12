@@ -1,0 +1,15 @@
+{
+  "schema": "synthetic-supplier-v1",
+  "input_sha256": "f4c398f781fbf85abd6d34d808d9e0fe213b2452c41e3916209d33618f6d939b",
+  "rows": 3,
+  "valid": true,
+  "issue_count": 0,
+  "issues": [],
+  "estimated_external_cost_usd": 0,
+  "external_actions": 0,
+  "job_key": "6bc0db8018bcdfe69720136414997884ce613baec4c70f5181a765339c45cd10",
+  "seen_input_before": false,
+  "digest_actionable": true,
+  "digest_reason": "recovered",
+  "delivery_attempted": false
+}

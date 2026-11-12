@@ -1,0 +1,6 @@
+sku,title,price,currency,link
+A-100,Plain ceramic cup,12.50,USD,https://example.com/cup
+A-100,Duplicate SKU cup,13.00,USD,https://example.com/cup-2
+B-200,,NaN,USD,https://example.com/bowl
+C-300,=1+1,8.00,usd,javascript:alert(1)
+D-400,Good linen napkin,5.00,USD,https://example.com/napkin

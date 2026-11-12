@@ -1,0 +1,5 @@
+Supplier preflight: RECOVERED
+3 rows; 0 findings.
+External actions: 0. External spend: $0 (local synthetic test).
+Revenue, margin, cash and owner minutes: not measured by this prototype.
+Next action: review report in weekly batch; no import or correction approved.

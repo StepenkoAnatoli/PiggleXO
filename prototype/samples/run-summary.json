@@ -1,0 +1,43 @@
+{
+  "research_date": "2026-11-12",
+  "python": "3.14.7",
+  "platform": "Windows",
+  "tests": 14,
+  "test_exit_code": 0,
+  "data": "synthetic only",
+  "network_calls": 0,
+  "external_spend_usd": 0,
+  "hosted_or_mobile_tested": false,
+  "runs": [
+    {
+      "label": "first",
+      "input": "supplier.csv",
+      "exit_code": 1,
+      "rows": 5,
+      "issues": 6,
+      "digest_actionable": true,
+      "digest_reason": "new_or_changed_findings",
+      "stdout": "rows=5 issues=6 actionable=True"
+    },
+    {
+      "label": "repeat",
+      "input": "supplier.csv",
+      "exit_code": 1,
+      "rows": 5,
+      "issues": 6,
+      "digest_actionable": false,
+      "digest_reason": "unchanged_or_clean",
+      "stdout": "rows=5 issues=6 actionable=False"
+    },
+    {
+      "label": "recovered",
+      "input": "clean.csv",
+      "exit_code": 0,
+      "rows": 3,
+      "issues": 0,
+      "digest_actionable": true,
+      "digest_reason": "recovered",
+      "stdout": "rows=3 issues=0 actionable=True"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+Python 3.14.7 on Windows
+test_clean_and_quoted_unicode (test_feed_preflight.PreflightTests.test_clean_and_quoted_unicode) ... ok
+test_clean_change_quiet_and_customer_isolation (test_feed_preflight.PreflightTests.test_clean_change_quiet_and_customer_isolation) ... ok
+test_cli_cannot_overwrite_input (test_feed_preflight.PreflightTests.test_cli_cannot_overwrite_input) ... Preflight failed closed (ValueError); no external action taken.
+ok
+test_corrupt_state_is_error (test_feed_preflight.PreflightTests.test_corrupt_state_is_error) ... ok
+test_digest_dedup_recovery_and_reversion (test_feed_preflight.PreflightTests.test_digest_dedup_recovery_and_reversion) ... ok
+test_duplicate_sku_not_duplicate_titles (test_feed_preflight.PreflightTests.test_duplicate_sku_not_duplicate_titles) ... ok
+test_empty_invalid_encoding_nul_and_unclosed_quote (test_feed_preflight.PreflightTests.test_empty_invalid_encoding_nul_and_unclosed_quote) ... ok
+test_formula_and_unicode_controls_not_echoed (test_feed_preflight.PreflightTests.test_formula_and_unicode_controls_not_echoed) ... ok
+test_html_is_data_and_never_echoed (test_feed_preflight.PreflightTests.test_html_is_data_and_never_echoed) ... ok
+test_limits (test_feed_preflight.PreflightTests.test_limits) ... ok
+test_missing_and_duplicate_headers_fail (test_feed_preflight.PreflightTests.test_missing_and_duplicate_headers_fail) ... ok
+test_missing_cells_and_extra_columns (test_feed_preflight.PreflightTests.test_missing_cells_and_extra_columns) ... ok
+test_price_shapes_and_nonfinite_numbers (test_feed_preflight.PreflightTests.test_price_shapes_and_nonfinite_numbers) ... ok
+test_urls_are_shape_checks_only (test_feed_preflight.PreflightTests.test_urls_are_shape_checks_only) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.122s
+
+OK

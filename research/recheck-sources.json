@@ -1,0 +1,26 @@
+[
+  {
+    "id": "FIN21",
+    "url": "https://docs.stripe.com/dashboard/mobile",
+    "title": "Stripe Dashboard mobile app",
+    "source_date": "undated",
+    "accessed": "2026-11-12",
+    "inspection": "underlying official page opened; refund and limitations sections read",
+    "claim": "Native refunds on iOS/Android; payment link deactivation/subscription cancellation iOS-only; app live-data only; role constraints.",
+    "evidence_type": "documented",
+    "uncertainty": "Owner country/account/device untested; no actual payment/refund executed.",
+    "decision_affected": "Phone gates, not proof of end-to-end operation"
+  },
+  {
+    "id": "CHK01",
+    "url": "https://blixwerkstudio.com/de/blog/handwerkermarkt-in-zwei-wochen-wie-viel-ware-herstellen",
+    "title": "Handwerkermarkt in zwei Wochen: Wie viel Ware machen?",
+    "source_date": "2026-10-22",
+    "accessed": "2026-11-12",
+    "inspection": "German underlying vendor page opened",
+    "claim": "Vendor promotes inventory/planning workbook through a story explicitly labelled fictional.",
+    "evidence_type": "observed vendor marketing",
+    "uncertainty": "Fictional story is not independent customer evidence. Product not purchased/tested.",
+    "decision_affected": "Non-English search does not restore novelty or prove demand"
+  }
+]

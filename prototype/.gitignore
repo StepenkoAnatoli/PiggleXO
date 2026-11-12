@@ -1,0 +1,4 @@
+*.sqlite
+*.sqlite-journal
+sample-report.json
+sample-digest.txt

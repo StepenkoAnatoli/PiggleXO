@@ -1,0 +1,5 @@
+Supplier preflight: REVIEW
+5 rows; 6 findings. duplicate_sku: 1, formula_like_cell: 1, invalid_currency_shape: 1, invalid_link_shape: 1, invalid_price: 1, missing_value: 1
+External actions: 0. External spend: $0 (local synthetic test).
+Revenue, margin, cash and owner minutes: not measured by this prototype.
+Next action: review report in weekly batch; no import or correction approved.
