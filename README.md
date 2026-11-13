@@ -1,8 +1,8 @@
 # PiggleXO — business investigation and validation package
 
-**Start with [the main report](REPORT.md).** Research date: **12 November 2026**.
+**Start with the [current decision and experiment](investigation/2026-11-13/README.md), updated 13 November 2026.** The owner's confirmed experience, languages, time and $350 loss ceiling change the ranking: test a **$149 bilingual customer-support reply pack**, with a bounded CSV cleanup service as the fallback. Paid demand is unvalidated. The [offer](investigation/2026-11-13/offer.md), [multilingual sample](investigation/2026-11-13/sample.md), [experiment](investigation/2026-11-13/experiment.md), [economics](investigation/2026-11-13/economics.md) and [sources](investigation/2026-11-13/sources.md) are prepared for review. No marketing or customer contact has been executed.
 
-The recommendation is one small, gated experiment: a narrow craft-market closeout template, with Pinterest as the initial acquisition channel. No business is represented as validated, launched or guaranteed profitable. The package examines approximately 34 distinct candidates, eight invention hypotheses and four financial finalists, while preserving contrary evidence and gaps.
+**Historical investigation below, dated 12 November 2026.** Its craft-market template recommendation and time assumptions are superseded by the update above. Its approximately 34 candidates, eight invention hypotheses, source records, code and contrary evidence remain useful background; they are preserved rather than silently rewritten. The new update adds a broad rescreen, five deeper candidates, a reviewed public portfolio and fifteen conditional financial scenarios.
 
 | Read / run | Purpose |
 |---|---|
@@ -19,13 +19,14 @@ The recommendation is one small, gated experiment: a narrow craft-market closeou
 | [Offline prototype](prototype/README.md) | Original synthetic CSV validation demonstration; not the selected product or production service |
 | [Verification record](VERIFICATION.md) | Executed local checks and limitations |
 
-The 38 screening rows include four overlaps, documented in the main report. The social template is one business analyzed twice, not two opportunities. Financial model F3 and `plans/validation.md` control the selected experiment; other appendix tests are alternatives, not concurrent launch instructions.
+The historical 38 screening rows include four overlaps, documented in the old report. The social template is one business analyzed twice, not two opportunities. The **current** experiment is controlled by `investigation/2026-11-13/experiment.md`; historical F3 and `plans/validation.md` no longer control the selection. Alternatives are not concurrent launch instructions.
 
 ## Reproduce the local checks
 
 Python standard library only. Tested with Python 3.14.7 on Windows. From the repository root:
 
 ```powershell
+python investigation/2026-11-13/economics.py
 python models/economics.py
 python -m unittest discover -s models -p "test_*.py" -v
 python prototype/run_demo.py
@@ -34,4 +35,4 @@ python scripts/build_evidence_index.py
 
 The deliberately flawed prototype sample exits 1 for findings; its demo runner checks that this is expected. It makes no network calls or external changes, uses synthetic data and records actual sample outputs. It is not Shopify-compatible and has no payment, hosting, email or phone integration. The original local tests do not validate upstream dependencies, a real business or future reliability.
 
-No customers were contacted, funds spent, third-party accounts created or business launched. The requested repository push shares the investigation and local artifacts. Do not commit real customer files, credentials, payment exports or private notes; `private/`, local databases and environment files are ignored where appropriate. The selected workbook is a future gated implementation plan, not an already tested product.
+No customers were contacted, funds spent, third-party accounts created or business launched. The requested repository push shares the investigation and local artifacts. Do not commit real customer files, credentials, payment exports or private notes; `private/`, local databases and environment files are ignored where appropriate. Private asset notes and the uncontacted prospect shortlist remain local. The historical workbook was not built; the current reply-pack sample is synthetic and has not been used by a buyer.

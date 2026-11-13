@@ -1,5 +1,7 @@
 # Verification record
 
+> For the revised recommendation and new artifacts, see [13 November verification](investigation/2026-11-13/verification.md). The checks below describe the preserved historical package.
+
 Research and local verification date: **12 November 2026**. Environment actually used: **Python 3.14.7, Windows**. No external runtime dependencies were installed for the included code.
 
 | Check actually executed | Result | Scope limit |

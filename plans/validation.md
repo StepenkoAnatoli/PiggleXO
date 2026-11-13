@@ -1,5 +1,7 @@
 # One first experiment: a craft-market closeout template
 
+> **Historical alternative, superseded 13 November 2026.** The active recommendation is the [bilingual reply-pack experiment](../investigation/2026-11-13/experiment.md). Keep this workbook test for a future decision only; do not run both concurrently.
+
 **Selected experiment: F3 / S05 / N03.** This is a test of a paid outcome and acquisition channel, not an instruction to launch several businesses. The catalog-preflight, monitoring, creator-tool and service tests elsewhere are fallback research designs. No customer contact, posting, account creation, purchase, advertising or collection of money has been executed or authorized by this report. The requested GitHub push publishes this research package only.
 
 ## Exact audience, channel, and offer

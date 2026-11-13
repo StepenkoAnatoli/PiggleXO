@@ -1,0 +1,452 @@
+[
+  {
+    "inputs": {
+      "name": "Support: 2 first direct pilots",
+      "orders": 2,
+      "price": "149",
+      "fee_rate": "0.10",
+      "fee_fixed": "0.50",
+      "refund_rate": "0.05",
+      "delivery_cash": "5",
+      "acquisition_cash": "10",
+      "fixed_cash": "15",
+      "delivery_hours_each": "4",
+      "sales_hours": "6",
+      "admin_hours": "1",
+      "setup_hours": "6"
+    },
+    "results": {
+      "contribution_each": "111.15",
+      "revenue": "298",
+      "variable_costs_and_refund_allowance": "75.70",
+      "operating_surplus_before_owner_pay_and_tax": "207.30",
+      "operating_hours": "15",
+      "setup_hours": "6",
+      "all_hours": "21",
+      "surplus_per_operating_hour": "13.82",
+      "surplus_per_all_hours": "9.871428571428571428571428571",
+      "economic_surplus_at_20_per_operating_hour": "-92.70",
+      "economic_surplus_at_30_per_operating_hour": "-242.70"
+    }
+  },
+  {
+    "inputs": {
+      "name": "Support: zero sales",
+      "orders": 0,
+      "price": "149",
+      "fee_rate": "0.10",
+      "fee_fixed": "0.50",
+      "refund_rate": "0.05",
+      "delivery_cash": "5",
+      "acquisition_cash": "10",
+      "fixed_cash": "15",
+      "delivery_hours_each": "4",
+      "sales_hours": "12",
+      "admin_hours": "2",
+      "setup_hours": "6"
+    },
+    "results": {
+      "contribution_each": "111.15",
+      "revenue": "0",
+      "variable_costs_and_refund_allowance": "0.00",
+      "operating_surplus_before_owner_pay_and_tax": "-15.00",
+      "operating_hours": "14",
+      "setup_hours": "6",
+      "all_hours": "20",
+      "surplus_per_operating_hour": "-1.071428571428571428571428571",
+      "surplus_per_all_hours": "-0.75",
+      "economic_surplus_at_20_per_operating_hour": "-295.00",
+      "economic_surplus_at_30_per_operating_hour": "-435.00"
+    }
+  },
+  {
+    "inputs": {
+      "name": "Support: 1 slow direct pilot",
+      "orders": 1,
+      "price": "149",
+      "fee_rate": "0.10",
+      "fee_fixed": "0.50",
+      "refund_rate": "0.05",
+      "delivery_cash": "5",
+      "acquisition_cash": "10",
+      "fixed_cash": "15",
+      "delivery_hours_each": "8",
+      "sales_hours": "12",
+      "admin_hours": "2",
+      "setup_hours": "6"
+    },
+    "results": {
+      "contribution_each": "111.15",
+      "revenue": "149",
+      "variable_costs_and_refund_allowance": "37.85",
+      "operating_surplus_before_owner_pay_and_tax": "96.15",
+      "operating_hours": "22",
+      "setup_hours": "6",
+      "all_hours": "28",
+      "surplus_per_operating_hour": "4.370454545454545454545454545",
+      "surplus_per_all_hours": "3.433928571428571428571428571",
+      "economic_surplus_at_20_per_operating_hour": "-343.85",
+      "economic_surplus_at_30_per_operating_hour": "-563.85"
+    }
+  },
+  {
+    "inputs": {
+      "name": "Support: 4 efficient direct orders",
+      "orders": 4,
+      "price": "149",
+      "fee_rate": "0.10",
+      "fee_fixed": "0.50",
+      "refund_rate": "0.05",
+      "delivery_cash": "5",
+      "acquisition_cash": "10",
+      "fixed_cash": "15",
+      "delivery_hours_each": "3",
+      "sales_hours": "4",
+      "admin_hours": "2",
+      "setup_hours": "0"
+    },
+    "results": {
+      "contribution_each": "111.15",
+      "revenue": "596",
+      "variable_costs_and_refund_allowance": "151.40",
+      "operating_surplus_before_owner_pay_and_tax": "429.60",
+      "operating_hours": "18",
+      "setup_hours": "0",
+      "all_hours": "18",
+      "surplus_per_operating_hour": "23.86666666666666666666666667",
+      "surplus_per_all_hours": "23.86666666666666666666666667",
+      "economic_surplus_at_20_per_operating_hour": "69.60",
+      "economic_surplus_at_30_per_operating_hour": "-110.40"
+    }
+  },
+  {
+    "inputs": {
+      "name": "Support: price reduced to $99",
+      "orders": 2,
+      "price": "99",
+      "fee_rate": "0.10",
+      "fee_fixed": "0.50",
+      "refund_rate": "0.05",
+      "delivery_cash": "5",
+      "acquisition_cash": "10",
+      "fixed_cash": "15",
+      "delivery_hours_each": "4",
+      "sales_hours": "6",
+      "admin_hours": "1",
+      "setup_hours": "6"
+    },
+    "results": {
+      "contribution_each": "68.65",
+      "revenue": "198",
+      "variable_costs_and_refund_allowance": "60.70",
+      "operating_surplus_before_owner_pay_and_tax": "122.30",
+      "operating_hours": "15",
+      "setup_hours": "6",
+      "all_hours": "21",
+      "surplus_per_operating_hour": "8.153333333333333333333333333",
+      "surplus_per_all_hours": "5.823809523809523809523809524",
+      "economic_surplus_at_20_per_operating_hour": "-177.70",
+      "economic_surplus_at_30_per_operating_hour": "-327.70"
+    }
+  },
+  {
+    "inputs": {
+      "name": "Support: 2 Fiverr pilots",
+      "orders": 2,
+      "price": "149",
+      "fee_rate": "0.23",
+      "fee_fixed": "0",
+      "refund_rate": "0.05",
+      "delivery_cash": "5",
+      "acquisition_cash": "0",
+      "fixed_cash": "15",
+      "delivery_hours_each": "4",
+      "sales_hours": "6",
+      "admin_hours": "1",
+      "setup_hours": "6"
+    },
+    "results": {
+      "contribution_each": "102.28",
+      "revenue": "298",
+      "variable_costs_and_refund_allowance": "93.44",
+      "operating_surplus_before_owner_pay_and_tax": "189.56",
+      "operating_hours": "15",
+      "setup_hours": "6",
+      "all_hours": "21",
+      "surplus_per_operating_hour": "12.63733333333333333333333333",
+      "surplus_per_all_hours": "9.026666666666666666666666667",
+      "economic_surplus_at_20_per_operating_hour": "-110.44",
+      "economic_surplus_at_30_per_operating_hour": "-260.44"
+    }
+  },
+  {
+    "inputs": {
+      "name": "Support: 15% refund stress",
+      "orders": 2,
+      "price": "149",
+      "fee_rate": "0.10",
+      "fee_fixed": "0.50",
+      "refund_rate": "0.15",
+      "delivery_cash": "5",
+      "acquisition_cash": "10",
+      "fixed_cash": "15",
+      "delivery_hours_each": "4",
+      "sales_hours": "6",
+      "admin_hours": "1",
+      "setup_hours": "6"
+    },
+    "results": {
+      "contribution_each": "96.25",
+      "revenue": "298",
+      "variable_costs_and_refund_allowance": "105.50",
+      "operating_surplus_before_owner_pay_and_tax": "177.50",
+      "operating_hours": "15",
+      "setup_hours": "6",
+      "all_hours": "21",
+      "surplus_per_operating_hour": "11.83333333333333333333333333",
+      "surplus_per_all_hours": "8.452380952380952380952380952",
+      "economic_surplus_at_20_per_operating_hour": "-122.50",
+      "economic_surplus_at_30_per_operating_hour": "-272.50"
+    }
+  },
+  {
+    "inputs": {
+      "name": "CSV: 2 first direct jobs",
+      "orders": 2,
+      "price": "99",
+      "fee_rate": "0.10",
+      "fee_fixed": "0.50",
+      "refund_rate": "0.05",
+      "delivery_cash": "5",
+      "acquisition_cash": "10",
+      "fixed_cash": "15",
+      "delivery_hours_each": "3",
+      "sales_hours": "3",
+      "admin_hours": "1",
+      "setup_hours": "4"
+    },
+    "results": {
+      "contribution_each": "68.65",
+      "revenue": "198",
+      "variable_costs_and_refund_allowance": "60.70",
+      "operating_surplus_before_owner_pay_and_tax": "122.30",
+      "operating_hours": "10",
+      "setup_hours": "4",
+      "all_hours": "14",
+      "surplus_per_operating_hour": "12.23",
+      "surplus_per_all_hours": "8.735714285714285714285714286",
+      "economic_surplus_at_20_per_operating_hour": "-77.70",
+      "economic_surplus_at_30_per_operating_hour": "-177.70"
+    }
+  },
+  {
+    "inputs": {
+      "name": "Template: 20 sales, acquisition works",
+      "orders": 20,
+      "price": "29",
+      "fee_rate": "0.129",
+      "fee_fixed": "0.80",
+      "refund_rate": "0.05",
+      "delivery_cash": "1",
+      "acquisition_cash": "6",
+      "fixed_cash": "15",
+      "delivery_hours_each": "0.15",
+      "sales_hours": "12",
+      "admin_hours": "1",
+      "setup_hours": "16"
+    },
+    "results": {
+      "contribution_each": "16.009",
+      "revenue": "580",
+      "variable_costs_and_refund_allowance": "259.820",
+      "operating_surplus_before_owner_pay_and_tax": "305.180",
+      "operating_hours": "16.00",
+      "setup_hours": "16",
+      "all_hours": "32.00",
+      "surplus_per_operating_hour": "19.07375",
+      "surplus_per_all_hours": "9.536875",
+      "economic_surplus_at_20_per_operating_hour": "-14.820",
+      "economic_surplus_at_30_per_operating_hour": "-174.820"
+    }
+  },
+  {
+    "inputs": {
+      "name": "Template: same sales, slow acquisition",
+      "orders": 20,
+      "price": "29",
+      "fee_rate": "0.129",
+      "fee_fixed": "0.80",
+      "refund_rate": "0.05",
+      "delivery_cash": "1",
+      "acquisition_cash": "6",
+      "fixed_cash": "15",
+      "delivery_hours_each": "0.15",
+      "sales_hours": "40",
+      "admin_hours": "1",
+      "setup_hours": "16"
+    },
+    "results": {
+      "contribution_each": "16.009",
+      "revenue": "580",
+      "variable_costs_and_refund_allowance": "259.820",
+      "operating_surplus_before_owner_pay_and_tax": "305.180",
+      "operating_hours": "44.00",
+      "setup_hours": "16",
+      "all_hours": "60.00",
+      "surplus_per_operating_hour": "6.935909090909090909090909091",
+      "surplus_per_all_hours": "5.086333333333333333333333333",
+      "economic_surplus_at_20_per_operating_hour": "-574.820",
+      "economic_surplus_at_30_per_operating_hour": "-1014.820"
+    }
+  },
+  {
+    "inputs": {
+      "name": "POD: 10 orders",
+      "orders": 10,
+      "price": "35",
+      "fee_rate": "0.12",
+      "fee_fixed": "0.50",
+      "refund_rate": "0.08",
+      "delivery_cash": "23",
+      "acquisition_cash": "5",
+      "fixed_cash": "10",
+      "delivery_hours_each": "0.30",
+      "sales_hours": "8",
+      "admin_hours": "2",
+      "setup_hours": "15"
+    },
+    "results": {
+      "contribution_each": "-0.50",
+      "revenue": "350",
+      "variable_costs_and_refund_allowance": "355.00",
+      "operating_surplus_before_owner_pay_and_tax": "-15.00",
+      "operating_hours": "13.00",
+      "setup_hours": "15",
+      "all_hours": "28.00",
+      "surplus_per_operating_hour": "-1.153846153846153846153846154",
+      "surplus_per_all_hours": "-0.5357142857142857142857142857",
+      "economic_surplus_at_20_per_operating_hour": "-275.00",
+      "economic_surplus_at_30_per_operating_hour": "-405.00"
+    }
+  },
+  {
+    "inputs": {
+      "name": "Dropship: 10 orders, $12 cash CAC",
+      "orders": 10,
+      "price": "40",
+      "fee_rate": "0.04",
+      "fee_fixed": "0.30",
+      "refund_rate": "0.10",
+      "delivery_cash": "20",
+      "acquisition_cash": "12",
+      "fixed_cash": "39",
+      "delivery_hours_each": "0.50",
+      "sales_hours": "8",
+      "admin_hours": "2",
+      "setup_hours": "20"
+    },
+    "results": {
+      "contribution_each": "2.10",
+      "revenue": "400",
+      "variable_costs_and_refund_allowance": "379.00",
+      "operating_surplus_before_owner_pay_and_tax": "-18.00",
+      "operating_hours": "15.00",
+      "setup_hours": "20",
+      "all_hours": "35.00",
+      "surplus_per_operating_hour": "-1.2",
+      "surplus_per_all_hours": "-0.5142857142857142857142857143",
+      "economic_surplus_at_20_per_operating_hour": "-318.00",
+      "economic_surplus_at_30_per_operating_hour": "-468.00"
+    }
+  },
+  {
+    "inputs": {
+      "name": "Dropship: 10 orders, $18 cash CAC",
+      "orders": 10,
+      "price": "40",
+      "fee_rate": "0.04",
+      "fee_fixed": "0.30",
+      "refund_rate": "0.10",
+      "delivery_cash": "20",
+      "acquisition_cash": "18",
+      "fixed_cash": "39",
+      "delivery_hours_each": "0.50",
+      "sales_hours": "8",
+      "admin_hours": "2",
+      "setup_hours": "20"
+    },
+    "results": {
+      "contribution_each": "-3.90",
+      "revenue": "400",
+      "variable_costs_and_refund_allowance": "439.00",
+      "operating_surplus_before_owner_pay_and_tax": "-78.00",
+      "operating_hours": "15.00",
+      "setup_hours": "20",
+      "all_hours": "35.00",
+      "surplus_per_operating_hour": "-5.2",
+      "surplus_per_all_hours": "-2.228571428571428571428571429",
+      "economic_surplus_at_20_per_operating_hour": "-378.00",
+      "economic_surplus_at_30_per_operating_hour": "-528.00"
+    }
+  },
+  {
+    "inputs": {
+      "name": "Dropservice: 2 orders, $60 contractor",
+      "orders": 2,
+      "price": "149",
+      "fee_rate": "0.10",
+      "fee_fixed": "0.50",
+      "refund_rate": "0.05",
+      "delivery_cash": "65",
+      "acquisition_cash": "10",
+      "fixed_cash": "15",
+      "delivery_hours_each": "3",
+      "sales_hours": "5",
+      "admin_hours": "1",
+      "setup_hours": "6"
+    },
+    "results": {
+      "contribution_each": "51.15",
+      "revenue": "298",
+      "variable_costs_and_refund_allowance": "195.70",
+      "operating_surplus_before_owner_pay_and_tax": "87.30",
+      "operating_hours": "12",
+      "setup_hours": "6",
+      "all_hours": "18",
+      "surplus_per_operating_hour": "7.275",
+      "surplus_per_all_hours": "4.85",
+      "economic_surplus_at_20_per_operating_hour": "-152.70",
+      "economic_surplus_at_30_per_operating_hour": "-272.70"
+    }
+  },
+  {
+    "inputs": {
+      "name": "Dropservice: contractor + $40 rework",
+      "orders": 2,
+      "price": "149",
+      "fee_rate": "0.10",
+      "fee_fixed": "0.50",
+      "refund_rate": "0.05",
+      "delivery_cash": "105",
+      "acquisition_cash": "10",
+      "fixed_cash": "15",
+      "delivery_hours_each": "4",
+      "sales_hours": "5",
+      "admin_hours": "1",
+      "setup_hours": "6"
+    },
+    "results": {
+      "contribution_each": "11.15",
+      "revenue": "298",
+      "variable_costs_and_refund_allowance": "275.70",
+      "operating_surplus_before_owner_pay_and_tax": "7.30",
+      "operating_hours": "14",
+      "setup_hours": "6",
+      "all_hours": "20",
+      "surplus_per_operating_hour": "0.5214285714285714285714285714",
+      "surplus_per_all_hours": "0.365",
+      "economic_surplus_at_20_per_operating_hour": "-272.70",
+      "economic_surplus_at_30_per_operating_hour": "-412.70"
+    }
+  }
+]
